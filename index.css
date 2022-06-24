@@ -1,0 +1,46 @@
+#boton {
+  text-decoration: none;
+  padding: 5px;
+}
+#boton:hover {
+  background-color: lightblue;
+  color: white;
+  transition: 1s ease;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+.prueba {
+  padding: 50rem 0 0 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+footer img {
+  width: 85vw;
+}
+footer .boton_instagram {
+  background-image: url("imagenes/instagram-logo-24.png");
+  width: 2vw;
+  height: 2vw;
+  background-size: 100%;
+  margin-bottom: 12vh;
+}
+footer .boton_instagram:hover {
+  background-image: url("imagenes/instagram-alt-logo-24.png");
+}
+footer .boton_facebook {
+  background-image: url("imagenes/facebook-logo-24.png");
+
+  width: 2vw;
+  height: 2vw;
+  background-size: 100%;
+  margin: 0 5vw 12vh 0;
+}
+footer .boton_facebook:hover {
+  background-image: url("imagenes/facebook-square-logo-24.png");
+}
